@@ -2,7 +2,7 @@ body { background: #222; color: #e6e6e6; }
 
 a { color: #949494; }
 
-a:link, a:visited { color: #949494; }
+a:link, a:visited { color: #915be4; }
 
 a:hover, a:active, a:focus { color: #c7c7c7; }
 
@@ -764,6 +764,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .channel_header .blue_on_hover:hover { color: #e6e6e6; }
 
+.ts_icon_vertical_ellipsis:before { color: #5935b1; }
+
 #client_body:not(.onboarding)::before { background: #222; border-bottom: 1px solid #363636; box-shadow: inset 1px 0 0 0 #222; }
 
 #client_body:not(.onboarding):not(.feature_global_nav_layout)::before { background: #222; border-bottom: 1px solid #363636; box-shadow: inset 1px 0 0 0 #222; }
@@ -814,9 +816,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #edit_topic_trigger { color: #949494; }
 
-.c-message_list__day_divider__label { color: #949494; }
+.c-message_list__day_divider__label { color: #aaa; }
 
-.c-message_list__day_divider__label__pill { background: #222; position: relative; }
+.c-message_list__day_divider__label__pill { background: #5935b1; position: relative; }
 
 .c-message_list__day_divider__line { border-top-color: #363636; }
 
@@ -1397,7 +1399,7 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #222; }
 
-.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before { background: #222; border-bottom: 1px solid #222; }
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before { background: #5935b1; border-bottom: 1px solid #222; }
 
 .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { box-shadow: 0 32px #222; }
 
