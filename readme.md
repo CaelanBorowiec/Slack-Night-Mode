@@ -6,7 +6,7 @@ Clone / Fork of [laCour/slack-night-mode](https://github.com/laCour/slack-night-
 
 ## Changes
 
-- [ ] Fix white gradient at the bottom of code boxes
+- [x] Fix white gradient at the bottom of code boxes
 
 ## Notes
 
