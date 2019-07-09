@@ -1799,7 +1799,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 .p-flexpane_header { background: #363636; border-color: #545454; color: #e6e6e6; }
 
-#client_body:not(.onboarding):not(.feature_global_nav_layout):before { background: #363636; }
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before { background: #5935b1; }
 
 #details_tab .heading { background: #151515; }
 
