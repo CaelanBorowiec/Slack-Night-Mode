@@ -3,11 +3,15 @@
 
 # Slack Night Mode (tweaked)
 
-Clone / Fork of [laCour/slack-night-mode](https://github.com/laCour/slack-night-mode) with fixes for minor things that annoy me.
+Clone / Fork of [laCour/slack-night-mode](https://github.com/laCour/slack-night-mode) to make it more purple and add fixes for minor things that annoy me.
 
 ## Changes
 
 - [x] Fix white gradient at the bottom of code boxes
+- [x] Add purple border over the About panel
+- [x] Changed hamburger menu to purple
+- [x] Changed links to light purple
+- [x] Updated day dividers to purple
 
 ## Setup
 On Windows, edit
