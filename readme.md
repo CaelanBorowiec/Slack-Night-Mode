@@ -15,7 +15,7 @@ Clone / Fork of [laCour/slack-night-mode](https://github.com/laCour/slack-night-
 
 ## Setup
 On Windows, edit
-`%LocalAppData%\slack\app-3.4.3\resources\app.asar.unpacked\src\static\ssb-interop.js`
+`%LocalAppData%\slack\app-YOURVERSION\resources\app.asar.unpacked\src\static\ssb-interop.js`
 and add the following at the bottom of the file:
 ```javascript
 document.addEventListener('DOMContentLoaded', function () {
