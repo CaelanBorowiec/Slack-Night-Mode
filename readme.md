@@ -1,6 +1,3 @@
-
-
-
 # Slack Purple Night Mode
 
 Clone / Fork of [laCour/slack-night-mode](https://github.com/laCour/slack-night-mode) to make it more purple and add fixes for minor things that annoy me.

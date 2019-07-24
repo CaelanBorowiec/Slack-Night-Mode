@@ -151,9 +151,15 @@ div.p-classic_nav__team_header__team__name { font-size: 16px; color: mediumpurpl
 .c-scrollbar__hider {
     background: black;
 }
+.p-unreads_view__header--was_marked {
+    background-color: #333;
+}
+.p-unreads_view__header {
+    background-color: #0e0e0e;
+}
 
-div.ql-editor, div.ql-editor p {
-    color: black;
+.p-message_input_field {
+    background-color: #212121 !important;
 }
 
 .p-channel_insights__channel .channel_link { color: #949494; }
