@@ -1,12 +1,10 @@
-
-
-
 # Slack Purple Night Mode
 
 Clone / Fork of [laCour/slack-night-mode](https://github.com/laCour/slack-night-mode) to make it more purple and add fixes for minor things that annoy me.
 
 ## Changes
 
+- [x] Slack 4.* compatible
 - [x] Fix white gradient at the bottom of code boxes
 - [x] Add purple border over the About panel
 - [x] Changed hamburger menu to purple
@@ -21,25 +19,11 @@ Clone / Fork of [laCour/slack-night-mode](https://github.com/laCour/slack-night-
 3. Open `%LocalAppData%\slack\app-4.0.0\resources\app.asar` with 7-Zip.
 4. Edit `\dist\ssb-interop.bundle.js` to add the following code:
 ```javascript
-document.addEventListener('DOMContentLoaded', function() {    
-  fetch('https://raw.githubusercontent.com/CaelanBorowiec/Slack-Night-Mode/master/css/raw/black.css')    
-  .then(function(response) {
-    return response.text();
-  })
-  .then(function(css) {
-    const style = document.createElement('style');
-    style.innerHTML = css;
-    document.head.appendChild(style);
-  });
-});
-document.addEventListener('DOMContentLoaded', function() {
-  $.ajax({
-    url: 'https://raw.githubusercontent.com/CaelanBorowiec/Slack-Night-Mode/master/css/raw/black.css',
-    success: function(css) {
-      $("<style></style>").appendTo('head').html(css);
-    }
-  });
-});
+document.addEventListener('DOMContentLoaded', async () => {
+    const el = document.createElement('style')
+    el.innerHTML = await (await fetch('https://raw.githubusercontent.com/CaelanBorowiec/Slack-Night-Mode/master/css/raw/black.css')).text()
+    document.head.appendChild(el)
+})
 ```
 5. Finally save ssb-interop.bundle.js and update it in the archive.
 6. Start Slack.
