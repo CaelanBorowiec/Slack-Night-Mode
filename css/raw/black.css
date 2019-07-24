@@ -134,6 +134,28 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 #quick_switcher_label { color: #949494; }
 
+div.p-classic_nav__team_header__team__name { font-size: 16px; color: mediumpurple; }
+.p-classic_nav { background: #000; }
+.p-classic_nav__channel_header button,
+.p-classic_nav__channel_header div,
+.p-classic_nav__right_header button,
+.p-classic_nav__right__search__icon,
+.p-classic_nav__right__search__placeholder {
+    color: white;
+}
+.p-classic_nav__right__search { border-color: white; }
+.p-classic_nav__right_header {
+    border-bottom: 8px solid #5935b1;
+}
+
+.c-scrollbar__hider {
+    background: black;
+}
+
+div.ql-editor, div.ql-editor p {
+    color: black;
+}
+
 .p-channel_insights__channel .channel_link { color: #949494; }
 
 .p-channel_insights__date_heading::before { background-color: #363636; }
