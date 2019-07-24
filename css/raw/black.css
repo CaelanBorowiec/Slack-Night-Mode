@@ -152,8 +152,8 @@ div.p-classic_nav__team_header__team__name { font-size: 16px; color: mediumpurpl
     background: black;
 }
 
-div.ql-editor, div.ql-editor p {
-    color: black;
+.p-message_input_field {
+    background-color: #212121 !important;
 }
 
 .p-channel_insights__channel .channel_link { color: #949494; }
