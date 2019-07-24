@@ -143,6 +143,13 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
     color: white;
 }
 .p-classic_nav__right__search { border-color: white; }
+.p-classic_nav__right_header {
+    border-bottom: 8px solid #5935b1;
+}
+
+.c-scrollbar__hider {
+    background: black;
+}
 
 .p-channel_insights__channel .channel_link { color: #949494; }
 
