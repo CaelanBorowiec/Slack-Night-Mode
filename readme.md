@@ -22,7 +22,7 @@ Clone / Fork of [laCour/slack-night-mode](https://github.com/laCour/slack-night-
 4. Edit `\dist\ssb-interop.bundle.js` to add the following code:
 ```javascript
 document.addEventListener('DOMContentLoaded', function() {    
-  fetch('https://raw.githubusercontent.com/CaelanBorowiec/Slack-Night-Mode/dev/css/raw/black.css')    
+  fetch('https://raw.githubusercontent.com/CaelanBorowiec/Slack-Night-Mode/master/css/raw/black.css')    
   .then(function(response) {
     return response.text();
   })
