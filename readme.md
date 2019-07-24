@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 document.addEventListener('DOMContentLoaded', function() {
   $.ajax({
-    url: 'https://raw.githubusercontent.com/CaelanBorowiec/Slack-Night-Mode/dev/css/raw/black.css',
+    url: 'https://raw.githubusercontent.com/CaelanBorowiec/Slack-Night-Mode/master/css/raw/black.css',
     success: function(css) {
       $("<style></style>").appendTo('head').html(css);
     }
@@ -52,7 +52,7 @@ and add the following at the bottom of the file:
 ```javascript
 document.addEventListener('DOMContentLoaded', function () {
    $.ajax({
-      url: 'https://raw.githubusercontent.com/CaelanBorowiec/Slack-Night-Mode/dev/css/raw/black.css',
+      url: 'https://raw.githubusercontent.com/CaelanBorowiec/Slack-Night-Mode/master/css/raw/black.css',
       success: function (css) {
          $("<style></style>").appendTo('head').html(css);
       }
