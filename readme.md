@@ -7,6 +7,7 @@ Clone / Fork of [laCour/slack-night-mode](https://github.com/laCour/slack-night-
 
 ## Changes
 
+- [x] Slack 4.* compatible
 - [x] Fix white gradient at the bottom of code boxes
 - [x] Add purple border over the About panel
 - [x] Changed hamburger menu to purple
