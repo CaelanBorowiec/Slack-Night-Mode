@@ -1,8 +1,7 @@
 
 
 
-
-# Slack Night Mode (tweaked)
+# Slack Purple Night Mode
 
 Clone / Fork of [laCour/slack-night-mode](https://github.com/laCour/slack-night-mode) to make it more purple and add fixes for minor things that annoy me.
 
@@ -47,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ### Slack v3
 On Windows, edit
-`%LocalAppData%\slack\app-3.4.3\resources\app.asar.unpacked\src\static\ssb-interop.js`
+`%LocalAppData%\slack\app-YOURVERSION\resources\app.asar.unpacked\src\static\ssb-interop.js`
 and add the following at the bottom of the file:
 ```javascript
 document.addEventListener('DOMContentLoaded', function () {
